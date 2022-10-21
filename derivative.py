@@ -6,7 +6,6 @@ import seaborn as sn
 import random
 
 def f_x(x):
-       # return np.power(x + 2, 2) - 16 * np.exp(-np.power((x - 2), 2))
        return np.exp(-x) * x * (x**2 - x - 1)
 
 x = np.linspace(-1,4, 1000)#Plot the curve
